@@ -1,8 +1,6 @@
 #include <iostream>
 #include <cmath>
 #include <vector>
-#include <string>
-
 using namespace std;
 
 const int INF = 1e9;
