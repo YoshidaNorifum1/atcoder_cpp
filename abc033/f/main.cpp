@@ -3,8 +3,6 @@
 #include <vector>
 #include <string>
 #include <sstream>
-#include <set>
-
 
 using namespace std;
 
@@ -15,7 +13,7 @@ int main(){
   int a;
 	std::cin>> a ;
 
-	std::cout << a << endl;
+	std::cout << a;
  
 	return 0;
 }
