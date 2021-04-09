@@ -5,7 +5,6 @@
 #include <sstream>
 #include <set>
 
-
 using namespace std;
 
 template <typename T>
@@ -30,8 +29,10 @@ const int INF = 1e9;
 
 int main(){
  
-  int a;
-	std::cin>> a ;
+  int a,b;
+	std::cin>> a >> b;
+	a = abs(a - b);
+	chmin(a,10-a);
 
 	std::cout << a << endl;
  
